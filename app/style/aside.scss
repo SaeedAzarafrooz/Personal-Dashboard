@@ -1,8 +1,9 @@
+@import "global";
 .container{
     width: 256px;
     background-color: #212B36;
     height: 1000px;
 }
 .titleH1{
-    color: orange;
+    color: $Primary;
 }

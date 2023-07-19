@@ -1,9 +1,10 @@
-import aside from '../css/aside.module.css'
+import aside from '../css/aside.module.css';
+import {Sidebar} from '../components';
 
 export function Aside() {
     return (
       <div className={aside.container}>
-        <h1 className={aside.titleH1}>aside</h1>
+        <Sidebar/>
       </div>
     );
   }

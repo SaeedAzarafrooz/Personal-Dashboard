@@ -1,0 +1,19 @@
+@import "global";
+
+.main {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.H1 {
+  color: white;
+}
+.box {
+  margin-top: 200px;
+  margin-left: 500px;
+  width: 200px;
+  height: 100px;
+  background-color: $White;
+  border-radius: $container-borderRadius-8;
+  filter: $shadow-smooth-lvl4;
+}

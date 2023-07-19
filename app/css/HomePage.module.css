@@ -1,0 +1,33 @@
+.LayoutContainer {
+  display: flex;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*-------------------- Theme Colors ----------------*/
+/*-------------------- Shades ----------------*/
+/*-------------------- Typography ----------------*/
+/*----------------------- Shadows --------------------filter:drop-shadow()-----*/
+/*----------------------- Corners -------------------------*/
+.main {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.H1 {
+  color: white;
+}
+
+.box {
+  margin-top: 200px;
+  margin-left: 500px;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  filter: drop-shadow(0 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0 41.78px 33.42px rgba(0, 0, 0, 0.05)) drop-shadow(0 22.34px 17.87px rgba(0, 0, 0, 0.04)) drop-shadow(0 12.52px 10px rgba(0, 0, 0, 0.035)) drop-shadow(0 6.65px 5.32px rgba(0, 0, 0, 0.0283)) drop-shadow(0 2.77px 2.21px rgba(0, 0, 0, 0.0197));
+}

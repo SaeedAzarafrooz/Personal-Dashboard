@@ -1,0 +1,15 @@
+.LayoutContainer {
+  display: flex;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*-------------------- Theme Colors ----------------*/
+/*-------------------- Shades ----------------*/
+/*-------------------- Typography ----------------*/
+/*----------------------- Shadows --------------------filter:drop-shadow()-----*/
+/*----------------------- Corners -------------------------*/

@@ -1,0 +1,131 @@
+//some template for layout.js file
+.LayoutContainer {
+  display: flex;
+}
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+
+/*-------------------- Theme Colors ----------------*/
+
+$Primary-color: #624bff;
+$Secondary-color: #6c757d;
+$Success-color: #198754;
+$Danger-color: #dc3545;
+$Warning-color: #ffc107;
+$Info-color:#0dcaf0;
+$Light-color:#f8f9fa;
+$Dark-color:#212529;
+
+
+$Gray-color-100: #f8f9fa;
+$Gray-color-200:#e9ecef ;
+$Gray-color-300:#dee2e6 ;
+$Gray-color-400:#ced4da ;
+$Gray-color-500:#adb5bd ;
+$Gray-color-600:#6c757d ;
+$Gray-color-700:#495057 ;
+$Gray-color-800:#343a40 ;
+$Gray-color-900:#212529 ;
+$Black:#000 ;
+$White:#fff ;
+
+
+/*-------------------- Shades ----------------*/
+
+$Primary-Shade-color:#cfe2ff;
+$Secondary-Shade-color:#052c65;
+$lightblue-shade-color:#cfe2ff;
+$Gray100-shade-color:$Gray-color-100;
+$lightpink-shade-color:#f8d7da;
+$lightyellow-shade-color:#fff3cd;
+$lightgreen-shade-color:#d2f4ea;
+$lightcyan-shade-color:#cff4fc;
+
+
+
+/*-------------------- Typography ----------------*/
+
+$h1-regular-32:2rem;
+$h2-regular-28:1.75rem;
+$h3-regular-24:1.5rem;
+$h4-regular-20:1.25rem;
+$h5-regular-15:0935rem;
+$h6-regular-12:0.75rem;
+$base-regular-15:0935rem;
+
+$h1-medium-32:2rem;
+$h2-medium-28:1.75rem;
+$h3-medium-24:1.5rem;
+$h4-medium-20:1.25rem;
+$h5-medium-16:1rem;
+$h6-medium-14:0.875rem;
+
+$h1-bold-32:2rem;
+$h2-bold-28:1.75rem;
+$h3-bold-24:1.5rem;
+$h4-bold-20:1.25rem;
+$h5-bold-16:1rem;
+$h6-bold-14:0.875rem;
+
+
+$h1-h6-regular-font: 'Inter', sans-serif;
+$base-h6-regular-font: 'Inter', sans-serif;
+$h1-h6-medium-font: 'DM Sans', sans-serif;
+$html-regular-font: 'Open Sans', sans-serif;
+
+
+$h1-h6-regular-weight: 400;
+$base-regular-weight: 400;
+$h1-h6-medium-weight: 500;
+$h1-h6-bold-weight: 700;
+
+$base-lineHeight-24: 1.5rem;
+
+
+
+/*----------------------- Shadows --------------------filter:drop-shadow()-----*/
+
+//test
+// $shadow-smooth-lvl3:drop-shadow(5px 20px 4px  rgb(11, 221, 11,.5))
+// drop-shadow(5px 20px 4px  rgb(13, 23, 33,.5));
+
+$shadow-smooth-lvl2:drop-shadow(0 2px 4px  rgb(13, 23, 33,0.08)) 
+                    drop-shadow(0 1px 2px  rgb(21, 30, 40,0.08));
+
+$shadow-smooth-lvl3:drop-shadow(0 9px 24px  rgb(60, 66, 87,0.2))
+                    drop-shadow(0 3px 6px  rgb(60, 66, 87,0.1)) 
+                    drop-shadow(0 0 1px  rgb(60, 66, 87,0.05)) ;
+
+$shadow-smooth-lvl4:drop-shadow(0 100px 80px  rgb(0, 0, 0,0.07)) 
+                    drop-shadow(0 41.78px 33.42px  rgb(0, 0, 0,0.05)) 
+                    drop-shadow(0 22.34px 17.87px  rgb(0, 0, 0,0.04)) 
+                    drop-shadow(0 12.52px 10px  rgb(0, 0, 0,0.035))
+                    drop-shadow(0 6.65px 5.32px  rgb(0, 0, 0,0.0283)) 
+                    drop-shadow(0 2.77px 2.21px  rgb(0, 0, 0,0.0197));
+
+
+
+/*----------------------- Corners -------------------------*/
+
+$container-borderRadius-8: 8px;
+$input-borderRadius-6: 6px;
+$checkBox-borderRadius-4: 4px;
+$alert-borderRadius-4: 4px;
+$textBox-borderRadius-8: 8px;
+
+$badge-borderRadius-2: 2px;
+$badge-borderRadius-16: 16px;
+$badgeCounter-borderRadius-4: 4px;
+
+$button-borderRadius-8: 8px;
+$buttonSmall-borderRadius-4: 4px;
+$buttonOption-borderRadius-6: 6px;
+$buttonPagination-borderRadius-8: 8px;
+
+
+
+
