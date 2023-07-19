@@ -19,9 +19,10 @@ export default function Home() {
             />
             </a>
             <a>aks2 injast
-          <img
-              src={profilePic}
+          <Image
+              src={profilePic2}
               alt="next Logo"
+              priority
             />
             </a>
       </div>
