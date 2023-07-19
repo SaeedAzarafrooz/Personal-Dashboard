@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/mydash"
+    output: "export",
+    images: {
+        loader: 'custom',
+        loaderFile: './app/image.js',
+      },
 }
 
 module.exports = nextConfig
