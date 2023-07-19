@@ -1,3 +1,84 @@
-.h1{
-    color: blueviolet;
+@import "global";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: $Gray-color-900;
+    width: 256px;
+    height: 700px;
+    border-radius: $sidebar-borderRadius-12;
+    padding: 24px 0 24px 6px;
+}
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .h1 {
+      color: $White;
+      font-size: $DashTitle-Black-26;
+      font-weight: $DashTitle-Black-weight;
+    }
+    
+    .icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 6px;
+    }
+}
+
+.menuContainer{
+    margin-top: 24px;
+    padding:12px 24px;
+    // background-color: hsl(0, 0%, 40%);
+    width: 100%;
+    height: 100%;
+    border-radius: $sidebar-borderRadius-12;
+
+
+    ul{
+        list-style: none;
+.mainListItem{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    a{
+        margin-left: 6px;
+        font-family: $h1-h6-medium-font;
+      font-weight: $h1-h6-bold-weight;
+      font-size: $h5-bold-16;
+      color: $White;
+    }
+ 
+}
+
+
+        .subList{
+            padding:12px 0 12px 12px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-content: flex-start;
+            li{
+                padding:6px 0;
+                display: flex;
+             
+
+                align-items: center;
+                justify-content: flex-start;
+                column-gap: 6px;
+                a{
+                    font-family: $h1-h6-medium-font;
+                  font-weight: $h1-h6-medium-weight;
+                  font-size: $h6-medium-14;
+                  color: $Gray-color-500;
+                }
+              
+            }
+        }
+
+        
+    }
 }

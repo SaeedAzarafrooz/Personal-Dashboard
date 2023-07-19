@@ -1,0 +1,18 @@
+{
+    "menus": [
+      { "id": 1, "title": "Home", "hasSubMenu": "true", "subMenus":[
+                                                                    {"id": 1, "title": "Goals", "hasSubMenu": "false"},
+                                                                    {"id": 1, "title": "Tasks", "hasSubMenu": "false"},
+                                                                    {"id": 1, "title": "TimeBoxing", "hasSubMenu": "false"},
+                                                                    {"id": 1, "title": "Points & Trophies", "hasSubMenu": "false"},
+                                                                    {"id": 1, "title": "Statistics", "hasSubMenu": "false"}
+                                                                   ] },
+      { "id": 2, "title": "Apps", "hasSubMenu": "false", "subMenus":[]}, 
+      { "id": 3, "title": "Documents", "hasSubMenu": "false", "subMenus":[]},  
+      { "id": 4, "title": "Settings", "hasSubMenu": "false", "subMenus":[]}                                                          
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

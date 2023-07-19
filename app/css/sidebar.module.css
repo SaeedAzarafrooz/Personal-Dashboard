@@ -1,3 +1,79 @@
-.h1 {
-  color: blueviolet;
+.LayoutContainer {
+  display: flex;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*-------------------- Theme Colors ----------------*/
+/*-------------------- Shades ----------------*/
+/*-------------------- Typography ----------------*/
+/*----------------------- Shadows --------------------filter:drop-shadow()-----*/
+/*----------------------- Corners -------------------------*/
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #212529;
+  width: 256px;
+  height: 700px;
+  border-radius: 12px;
+  padding: 24px 0 24px 6px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerContainer .h1 {
+  color: #fff;
+  font-size: 1.625rem;
+  font-weight: 900;
+}
+.headerContainer .icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+
+.menuContainer {
+  margin-top: 24px;
+  padding: 12px 24px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.menuContainer ul {
+  list-style: none;
+}
+.menuContainer ul .mainListItem {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.menuContainer ul .mainListItem a {
+  margin-left: 6px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+}
+.menuContainer ul .subList {
+  padding: 12px 0 12px 12px;
+}
+.menuContainer ul .subList li {
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 6px;
+}
+.menuContainer ul .subList li a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #adb5bd;
 }
