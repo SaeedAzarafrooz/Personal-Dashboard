@@ -25,6 +25,7 @@ export function Sidebar() {
             </div>
      
 <Render/>
+<hr></hr>
    
   
             <div className={sidebar.menuContainer}>
