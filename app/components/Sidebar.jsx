@@ -23,9 +23,9 @@ export function Sidebar() {
                         alt="Dashboard Logo" priority/>
                 <h1 className={sidebar.h1}>iDashboard</h1>
             </div>
-            <Menu/>
+            {/* <Menu/>
 
-                        <Menus/>
+                        <Menus/> */}
   
             <div className={sidebar.menuContainer}>
                 <ul>
