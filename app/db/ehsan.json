@@ -1,0 +1,237 @@
+  
+     [
+        {
+          "category_name": "لبنيات",
+          "sub_categories": [
+              "sub_category_name": "شير",
+              "products": [
+                {
+                  "product_name": "شير ميهن"
+                },
+                {
+                  "product_name": "شير کاله"
+                },
+                {
+                  "product_name": "شير دامداران"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "پنير",
+              "products": [
+                {
+                  "product_name": "پنير ميهن"
+                },
+                {
+                  "product_name": "پنير کاله"
+                },
+                {
+                  "product_name": "پنير دامداران"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "کره",
+              "products": [
+                {
+                  "product_name": "کره ميهن"
+                },
+                {
+                  "product_name": "کره کاله"
+                },
+                {
+                  "product_name": "کره دامداران"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "مواد پروتيني",
+          "sub_categories": [
+            {
+              "sub_category_name": "گوشت",
+              "products": [
+                {
+                  "product_name": "Product 2.1.1"
+                },
+                {
+                  "product_name": "Product 2.1.2"
+                },
+                {
+                  "product_name": "Product 2.1.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "مرغ",
+              "products": [
+                {
+                  "product_name": "Product 2.2.1"
+                },
+                {
+                  "product_name": "Product 2.2.2"
+                },
+                {
+                  "product_name": "Product 2.2.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "ماهي",
+              "products": [
+                {
+                  "product_name": "Product 2.3.1"
+                },
+                {
+                  "product_name": "Product 2.3.2"
+                },
+                {
+                  "product_name": "Product 2.3.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "آرايشي و بهداشتي",
+          "sub_categories": [
+            {
+              "sub_category_name": "مخصولات آرايشي",
+              "products": [
+                {
+                  "product_name": "Product 3.1.1"
+                },
+                {
+                  "product_name": "Product 3.1.2"
+                },
+                {
+                  "product_name": "Product 3.1.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "بهداشت و مراقبت از پوست",
+              "products": [
+                {
+                  "product_name": "Product 3.2.1"
+                },
+                {
+                  "product_name": "Product 3.2.2"
+                },
+                {
+                  "product_name": "Product 3.2.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "شامپو و مراقبت از مو",
+              "products": [
+                {
+                  "product_name": "Product 3.3.1"
+                },
+                {
+                  "product_name": "Product 3.3.2"
+                },
+                {
+                  "product_name": "Product 3.3.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "خانه و سبک زندگي",
+          "sub_categories": [
+            {
+              "sub_category_name": "لوازم آشپزخانه",
+              "products": [
+                {
+                  "product_name": "Product 4.1.1"
+                },
+                {
+                  "product_name": "Product 4.1.2"
+                },
+                {
+                  "product_name": "Product 4.1.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "لوازم يکبار‌مصرف",
+              "products": [
+                {
+                  "product_name": "Product 4.2.1"
+                },
+                {
+                  "product_name": "Product 4.2.2"
+                },
+                {
+                  "product_name": "Product 4.2.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "لوازم خانه",
+              "products": [
+                {
+                  "product_name": "Product 4.3.1"
+                },
+                {
+                  "product_name": "Product 4.3.2"
+                },
+                {
+                  "product_name": "Product 4.3.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "لوازم برقي  و ديجيتال",
+          "sub_categories": [
+            {
+              "sub_category_name": "باتري,مخافظ و رابط",
+              "products": [
+                {
+                  "product_name": "Product 5.1.1"
+                },
+                {
+                  "product_name": "Product 5.1.2"
+                },
+                {
+                  "product_name": "Product 5.1.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name": "نور و روشنايي",
+              "products": [
+                {
+                  "product_name": "Product 5.2.1"
+                },
+                {
+                  "product_name": "Product 5.2.2"
+                },
+                {
+                  "product_name": "Product 5.2.3"
+                }
+              ]
+            },
+            {
+              "sub_category_name" : "لوازم برقي شخصي",
+              "products": [
+                {
+                  "product_name": "Product 5.3.1"
+                },
+                {
+                  "product_name": "Product 5.3.2"
+                },
+                {
+                  "product_name": "Product 5.3.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
