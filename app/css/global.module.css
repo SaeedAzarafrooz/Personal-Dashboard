@@ -8,6 +8,12 @@
   width: 100%;
 }
 
+.sublist {
+  color: gray;
+  margin-left: 12px;
+  list-style: none;
+}
+
 /*-------------------- Theme Colors ----------------*/
 /*-------------------- Shades ----------------*/
 /*-------------------- Typography ----------------*/

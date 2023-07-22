@@ -6,16 +6,18 @@ import { Fragment } from "react";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <body>
       <Fragment className={global.all}>
       <div className={global.LayoutContainer}>
         <Aside />
         <div className={global.MainContainer}>
           <Header />
-          {children}
+        {children}
           <Footer />
         </div>
       </div>
     </Fragment>
+    </body>
     </html>
   );
 }

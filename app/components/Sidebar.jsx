@@ -11,8 +11,8 @@ import AppsIcon from '../images/apps-icon.png';
 import DocumentsIcon from '../images/documents-icon.png';
 import SettingsIcon from '../images/settings-icon.png';
 
-import Menus from '../requests/get';
-
+import Menus from '../requests/GetData';
+import Menu from './Menu'
 
 
 export function Sidebar() {
@@ -23,6 +23,9 @@ export function Sidebar() {
                         alt="Dashboard Logo" priority/>
                 <h1 className={sidebar.h1}>iDashboard</h1>
             </div>
+            <Menu/>
+
+                        <Menus/>
   
             <div className={sidebar.menuContainer}>
                 <ul>
