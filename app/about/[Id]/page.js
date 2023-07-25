@@ -2,7 +2,7 @@ import getData from '../../requests/GetData'
 
 
 export const getStaticPaths=async () => {
-    const res=await await getData('menus');
+    const res= await getData('menus');
     // const data = await res.json();
     const paths=res.map(menus=>{
         return{
