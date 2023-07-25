@@ -2,9 +2,9 @@ import getData from '../../requests/GetData'
 
 
 export const getStaticPaths=async () => {
-    const res=await fetch('http://localhost:8000/menus');
-    const data = await res.json();
-    const paths=data.map(menus=>{
+    const res=await await getData('menus');
+    // const data = await res.json();
+    const paths=res.map(menus=>{
         return{
             params:{id: menus.id.toString()}
         }
