@@ -10,6 +10,15 @@ export default async function getData(param) {
 } catch (error) {
   console.error(error);
 }
+
+
+
+
+
+
+
+
+
 //   const res = await fetch(`${MENUS_API}/${param}`);
 //   //  console.log(`${MENUS_API}/${param}`);
 //   if (!res.ok) {

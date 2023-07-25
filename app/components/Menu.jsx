@@ -13,8 +13,8 @@ useEffect(() => {
   const getMenus = async () => {
     setLoading(true);
     const menus = await getData('menus');
-    setMenus(menus);
     setLoading(false);
+    setMenus(menus);
   };
   getMenus();
   return () => { 
@@ -25,31 +25,39 @@ useEffect(() => {
 
 
 if (isLoading) return <p>Loading...</p>
-return(
-<ul>
-  {menus?.map(({id,title,hasSubMenu,subMenus}) => (
-    <li key={id}>
-      <span>{title}</span>
-      {hasSubMenu == "true"
-              ? subMenus?.map(({id,title}) => (
-                  <ul>
-                    <li key={id} className={global.sublist}>
-                    <span> {title}</span>
-                    </li>
+console.log("menus",menus);
+return(<>
+   {/* //بینهایت تکرار میشه چون فکر کنم شروط ورود به ایف هارو 
+  //   //درست اعمال نکردم باید ویدئو حسان رو دوباره ببینم */}
+
+<div>{menus.map(({id,title,hasSubMenu,subMenus})=> (  
+
+      <div>
+        {title}
+        {hasSubMenu === true
+        ? subMenus.map(({title}) => (
+          <ul>
+          <li key={id} className={global.sublist}>
+            {title}
+            </li>
                   </ul>
-                ))
-              : null}
-      </li>
-  ))}
-</ul>)
+          ))
+        : null}
+      </div>
+       ))}</div>
+       
+     
+  
+              
+</>
+)
  
     /* {data.title}-{data.id}-{data.hasSubMenu}-{data.subMenus[0].title}
 <div>{data.hasSubMenu=='true' ? 'show' : 'hide'}</div> */
 
 
 
-    {/* //بینهایت تکرار میشه چون فکر کنم شروط ورود به ایف هارو 
-    //درست اعمال نکردم باید ویدئو حسان رو دوباره ببینم */}
+    
         {/* {menus?.map(({id,title,hasSubMenu,subMenus}) => (
           <li key={id}>
             <Menu menuitem={title} />

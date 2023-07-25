@@ -10,8 +10,9 @@ import StatisticsIcon from '../images/statistics-icon.png';
 import AppsIcon from '../images/apps-icon.png';
 import DocumentsIcon from '../images/documents-icon.png';
 import SettingsIcon from '../images/settings-icon.png';
-import Render from '../requests/GetData';
 import Menu from './Menu';
+
+
 
 
 

@@ -1,0 +1,24 @@
+{"products":[
+    {"id":1,
+    "title":"product 1"
+},
+{"id":2,
+"title":"product 2"
+}
+],
+
+"reviews":[
+    {"id":1,
+    "rating":3,
+    "productId":1
+},
+{"id":2,
+    "rating":5,
+    "productId":1
+},
+{"id":3,
+    "rating":4,
+    "productId":1
+}
+]
+}
