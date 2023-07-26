@@ -5,6 +5,7 @@ export const getStaticPaths=async () => {
     const res= await getData('menus');
     // const data = await res.json();
     const paths=res.map(menus=>{
+        console.log(menus.id);
         return{
             params:{id: menus.id.toString()}
         }
