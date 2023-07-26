@@ -1,20 +1,20 @@
 import getData from '../../requests/GetData'
 
 
-export const getStaticPaths=async () => {
-    const res= await getData('menus');
-    // const data = await res.json();
-    const paths=res.map(menus=>{
-        console.log(menus.id);
-        return{
-            params:{id: menus.id.toString()}
-        }
-    })
-    return {
-        paths,
-        fallback: false
-    }
-}
+// export const getStaticPaths=async () => {
+//     const res= await getData('menus');
+//     // const data = await res.json();
+//     const paths=res.map(menus=>{
+//         console.log(menus.id);
+//         return{
+//             params:{id: menus.id.toString()}
+//         }
+//     })
+//     return {
+//         paths,
+//         fallback: false
+//     }
+// }
 
 // export const getStaticProps=async (context)=>{
 //     const id=context.params.id;
